@@ -13,7 +13,7 @@ int main()
 		err_sys("system() error");
 
 	pr_exit(status);
-
+	//prox新增的行   16行
 	if( (status = system("who; exit 44")) )
 		err_sys("system() error");
 
