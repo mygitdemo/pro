@@ -18,6 +18,6 @@ int main()
 		err_sys("system() error");
 
 	pr_exit(status);
-
+	//pro1  21ÐÐ
 	return 0;
 }
