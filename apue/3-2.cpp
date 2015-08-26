@@ -1,7 +1,12 @@
 #include "comm.h"
 
 char buff1[11];
+/*
 
+if( (rfd = open("./tmp.hole", O_RDWR)) == -1)
+printf("can not open hole file.\n");
+if( (wfd = open("./tmp.nohole", O_RDWR)) == -1)
+*/
 int main()
 {
 	int rfd;
