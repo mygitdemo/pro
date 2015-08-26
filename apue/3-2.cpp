@@ -12,7 +12,7 @@ int main()
 		printf("can not open hole file.\n");
 	if( (wfd = open("./tmp.nohole", O_RDWR)) == -1)
 		printf("can not open nohole file.\n");
-	 
+	 //15ÐÐpro¸ü¸Ä
 	while ( (len = read(rfd, buff1,17)) )
 	{
 		printf("%d\n%s\n",len, buff1);
